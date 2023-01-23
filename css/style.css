@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+}
+.container {
+    background-color: red;
+    height: 50vh;
+}
+
+.container-1 {
+    background-color: green;
+}
+
+/* Para ipad pro 1024px */
+@media ( max-width: 1024px){
+    .container {
+        background-color: yellow;
+        height: 50vh;
+    }
+}
+
+/* Para nexus 5 360px */
+@media ( max-width: 360px){
+    .container {
+        background-color: pink;
+        height: 50vh;
+    }
+}
