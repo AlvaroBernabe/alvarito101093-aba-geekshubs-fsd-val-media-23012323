@@ -1,0 +1,42 @@
+body {
+    background-color: blue;
+    border: 0;
+}
+
+.container {
+    background-color: red;
+    height: 100vh;
+}
+
+#superior {
+    background-color: pink;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+    #superior-izq {
+        width: 50vh;
+        background-color: red;
+    }
+    #superior-der {
+        width: 50vh;
+        background-color: aqua;
+    }
+
+#main {
+    background-color: darkblue;
+    height: 75vh;
+}
+
+#inferior {
+    height: 15vh;
+}
+    #footerarriba {
+        background-color: brown;
+        height: 5vh;
+    }
+    #footerabajo {
+        background-color: black;
+        height: 10vh;
+    }

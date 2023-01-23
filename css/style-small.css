@@ -1,0 +1,17 @@
+#izq {
+    background-color: violet;
+    width: 20vw;
+}
+#der {
+    background-color: blue;
+    width: 80vw;
+}
+
+@media(max-width:360px){
+    #izq{
+        display: none;
+    }
+    #der {
+        width: 100%;
+    }
+}
