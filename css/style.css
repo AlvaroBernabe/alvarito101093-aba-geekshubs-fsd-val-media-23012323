@@ -3,25 +3,35 @@ body {
 }
 .container {
     background-color: red;
-    height: 50vh;
+    height: 100vh;
 }
-
-.container-1 {
+#navbar {
     background-color: green;
+    height: 10vh;
+}
+#main {
+    background-color: yellow;
+    height: 60vh;
+    display: flex;
+}
+#footer {
+    background-color: orange;
+    height: 30vh;
+}
+#izq {
+    background-color: violet;
+    width: 20vw;
+}
+#der {
+    background-color: blue;
+    width: 80vw;
 }
 
-/* Para ipad pro 1024px */
-@media ( max-width: 1024px){
-    .container {
-        background-color: yellow;
-        height: 50vh;
+@media(max-width:360px){
+    #izq{
+        display: none;
     }
-}
-
-/* Para nexus 5 360px */
-@media ( max-width: 360px){
-    .container {
-        background-color: pink;
-        height: 50vh;
+    #der {
+        width: 100%;
     }
 }
